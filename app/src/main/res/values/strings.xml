@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ModelViewViewModel(MVVM)-android</string>
+    <string name="error_loading_people">There seems to have been some error.</string>
+    <string name="default_loading_people">Press the button to load people!</string>
+    <string name="action_github">Github</string>
+
 </resources>
