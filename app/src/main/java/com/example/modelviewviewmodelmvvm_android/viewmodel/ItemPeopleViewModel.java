@@ -46,7 +46,7 @@ public class ItemPeopleViewModel extends BaseObservable {
     }
 
     public void onItemClick(View view) {
-//        context.startActivity(PeopleDetailActivity.launchDetail(view.getContext(), people));
+        context.startActivity(PeopleDetailActivity.launchDetail(view.getContext(), people));
     }
 
     public void setPeople(People people) {

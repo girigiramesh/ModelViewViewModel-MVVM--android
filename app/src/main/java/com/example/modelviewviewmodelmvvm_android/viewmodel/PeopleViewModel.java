@@ -32,9 +32,9 @@ public class PeopleViewModel implements PeopleViewModelContract.ViewModel {
         peopleProgress = new ObservableInt(View.GONE);
         peopleList = new ObservableInt(View.GONE);
         peopleLabel = new ObservableInt(View.VISIBLE);
-        if (context != null) {
+//        if (context != null) {
             messageLabel = new ObservableField<>(context.getString(R.string.default_loading_people));
-        }
+//        }
     }
 
     @Override
